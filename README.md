@@ -11,6 +11,8 @@ This project aims to answer the following questions:
 - Can we predict landing outcomes?
 - What machine learning model is the most effective for predicting landing outcomes?
 
+A presentation-style report is provided for this project that details methodologies, insights gained through exploratory data analysis (EDA), and results of predictive analysis. This report can be found in the file named ```spacex-report.pdf```.
+
 ### Prerequisites
 To run the files, you should have the following installed on your machine:
 
@@ -18,7 +20,7 @@ To run the files, you should have the following installed on your machine:
 - Python 3
 
 ### Running Project Files
-All files other than ```spacex_dash_app.py``` are Jupyter Notebook files (.ipynb). After launching Jupyter Notebook, ensure that a Python 3 kernel is being used. Then, these Jupyter Notebook files can be opened and run. The files include:
+All files other than ```spacex_dash_app.py``` are Jupyter Notebook files (.ipynb). After launching Jupyter Notebook, ensure that a Python 3 kernel is being used. Then, these Jupyter Notebook files can be opened and run.
 
 To launch the interactive dashboard, perform the following steps:
 
@@ -32,3 +34,12 @@ To launch the interactive dashboard, perform the following steps:
    ```
 3. Open a browser and access the dashboard at http://127.0.0.1:8050
 
+### Methodology
+
+#### Data Collection
+Data is collected from two sources:
+- Directly from SpaceX via the SpaceX REST API (data-collection-api.ipynb)
+- SpaceX Falcon9 Launches Wikipedia page via web scraping (data-collection-webscraping.ipynb)
+
+#### Data Wrangling
+Data is cleaned and shaped 
