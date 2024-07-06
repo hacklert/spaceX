@@ -34,7 +34,7 @@ To launch the interactive dashboard, perform the following steps:
    ```
 3. Open a browser and access the dashboard at http://127.0.0.1:8050
 
-### Methodology
+### Overview of Methodologies
 
 #### Data Collection
 Data is collected directly from SpaceX via the SpaceX REST API (data-collection-api.ipynb) and from the SpaceX Falcon9 Launches Wikipedia page via web scraping (data-collection-webscraping.ipynb).
